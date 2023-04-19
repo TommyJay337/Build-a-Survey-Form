@@ -1,0 +1,16 @@
+body {
+
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input {
+    display: block;
+}
+
+input, label {
+    text-align: ce;
+}
