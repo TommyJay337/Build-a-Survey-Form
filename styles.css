@@ -1,16 +1,15 @@
 body {
-
+    background-color: #b075d8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
-label {
+label,textarea {
     display: block;
     margin: 0.5rem 0;
+    padding: 0.2rem;
 }
 
-input {
-    display: block;
-}
-
-input, label {
-    text-align: ce;
+textarea {
+    text-align: center;
 }
