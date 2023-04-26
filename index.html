@@ -13,14 +13,14 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
     <form id="survey-form">
-        <fieldset>
-            <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required>
+        
+            <label id="name-label">Name <input id="name" type="text" class="top-section" placeholder="Enter your name" required>
             </label>
 
-            <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required>
+            <label id="email-label">Email <input id="email" type="email" class="top-section" placeholder="Enter your email" required>
             </label>
 
-            <label id="number-label">Age <input id="number" type="number" min="13" max="90" placeholder="Age">
+            <label id="number-label">Age <input id="number" type="number" class="top-section" min="13" max="90" placeholder="Age">
             </label>
 
             <label>Which option best describes your role?
@@ -32,8 +32,6 @@
                 <option>Other</option>
             </select>
             </label>
-        </fieldset>
-        <fieldset>
 
             <p>Would you recommend freeCodeCamp to a friend?</p>
 
@@ -43,8 +41,6 @@
 
             <label for="rad3"><input type="radio" id="rad3" name="rec" value="not-sure">Not sure</label>
 
-        </fieldset>
-        <fieldset>
 
             <p>What would you like to see improved?</p>
 
@@ -54,9 +50,8 @@
 
             <label><input type="checkbox" value="open-source">Open Source</label>
 
-        </fieldset>
         <p>Any comments or suggestions?</p>
-        <textarea id="comments"></textarea>
+        <textarea id="comments" placeholder="Enter comments"></textarea>
 
         <input type="submit" id="submit">
     </form>

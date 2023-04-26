@@ -1,7 +1,21 @@
 body {
-    background-color: #b075d8;
+    background-color: #49365f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
+}
+
+h1, #description {
     text-align: center;
+}
+
+form {
+    background-color: rgba(42, 80, 92, 0.486);
+    margin-top: 1rem;
+    padding: 5px 5px 10px 5px;
+}
+
+label {
+    margin-top: 0.2rem;
 }
 
 label,textarea {
@@ -10,6 +24,35 @@ label,textarea {
     padding: 0.2rem;
 }
 
+.top-section {
+    display: block;
+    width: 80%;
+    padding: 12px 20px;
+}
+
+input, #dropdown, textarea {
+    border-radius: 5px;
+}
+
+#dropdown {
+    width: 80%;
+    padding: 12px 20px;
+}
+
 textarea {
-    text-align: center;
+    width: 80%;
+    padding: 12px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 80%;
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(94, 163, 163);
+    text-emphasis: bold;
 }
